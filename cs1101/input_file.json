@@ -1,0 +1,23 @@
+{
+
+"apple": "red",
+
+"banana": "yellow",
+
+"cherry": "red",
+
+"mango": "yellow",
+
+"grapes": ["black", "green"],
+
+"nuts" : "brown",
+
+"pear" : "green",
+
+"peach": "pink",
+
+"cherry": "red",
+
+"lemon" : "yellow"
+
+}
