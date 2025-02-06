@@ -56,17 +56,31 @@
      - Online Document of the technology company
        - This sources is provided by the technology company which some services or products serve.
        - Reliability
-         - The provider company is clear and it is done as part of the service, so it is extremely expensive for resources on the Internet.
+         - There is almost no possibility that what is written is wrong, and no one would doubt it.
+         - The latest version of the document is also managed.
+         - Because the granularity of information is coarse during actual work and verification, information may be missing.
        - Credibility
+         - The provider company is clear and it is done as part of the service, so it is extremely expensive for resources on the Internet.
+         - The content of the information is likely to be biased.
      - Blog of the technology expert
        - Reliability
+         - Varies depending on the article. It is very important to see when an article was created, as older articles are often inaccurate because they cover old content.
        - Credibility
+         - It depends on the creator and the number of viewers. If the author is well-known or proven to be an expert, credibility is high. Also, if other people view your site and write their reputation, you can gain trust based on that reputation. Also, even if the reliability is not high, it is easy to verify whether someone is telling the truth by reproducing the content.
      - News site of the technology
        - Reliability
+         - Depends on who the publisher is. You can also evaluate by checking the update frequency and last update date and time to see how much maintenance has been done.
        - Credibility
+         - It is less likely to be biased than information from the original company providing the service, and may be more accurate as information may be compared with other products.
      - Book of the technology
        - Reliability
+         - Although it depends on the publisher, the accuracy of the information is thought to be high, as the book must have been repeatedly checked during binding. It will be higher if the version is updated frequently.
        - Credibility
+         - Just having it in the form of a book increases the sense of trust. There are a lot of e-books these days, but these are a bit of an exception, and in order to gain trust, you need reviews, other people's ratings, or proof that the book is written by a famous person.
      - Youtube channel of the technology
        - Reliability
+         - There is a high possibility that there is a lot of information based on actual screens and work, so the reliability is high in that you can proceed while actually verifying it.
        - Credibility
+         - Trustworthiness varies greatly depending on the number of views from other people and the number of subscribers to the channel. Judging whether someone is a celebrity or not is also related to these numbers, so whether or not they are seen by other people is the biggest factor.
+   - summarizes
+     - I evaluated the credibility and reliability of media, and I felt that ratings of media trust, which have been increasing in recent years, are increasingly dependent on how favorably others view them. . In addition, improvements based on these reviews will give you a better sense of trust.
