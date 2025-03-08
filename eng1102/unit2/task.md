@@ -63,7 +63,7 @@
   - A technique used in various situations by working adults is to state the conclusion first.
     - For reader, it is easier to understand t he content of the text if the conclusion is stated first.
     - Structure of that technique is to state the conclusion first, then explain the reason, and finally explain the details and  provide evidence with references.
-    - Second one is specify the subject and purpose.
+  - Second one is specify the subject and purpose.
     - Especially in my native Japanese, there is a culture called wabi-sabi, which values ​​the beauty of conveying what you want to say through nuance rather than saying it directly. Therefore, it is important to check whether subjects and objects are clearly used in business communications.
     - Especially in my native Japanese, there is a culture called wabi-sabi, which values ​​the beauty of conveying what you want to say through nuance rather than saying it directly. Therefore, it is important to check whether subjects and objects are clearly used in business communications.
 
