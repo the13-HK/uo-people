@@ -22,7 +22,12 @@
     By engaging in self-awareness, critical thinking, organization, supporting evidence, and reflection, the writer can develop a deeper understanding of themselves, their experiences, and their learning, leading to personal growth and development.
 2. Choose any topic of your interest and write a reflective essay, addressing the following components:
 a. Self-awareness
+- About a year ago, I started learning how to play the guitar. I had always been interested in music and had wanted to learn how to play an instrument for a long time. I decided to take up the guitar as my first instrument, as I was drawn to its versatility and the wide range of music styles that could be played on it.
 b. Critical thinking
+- As I started learning how to play the guitar, I realized that it was not as easy as I had initially thought. I had to learn how to hold the guitar properly, how to strum the strings, and how to play different chords. I also had to practice regularly to improve my skills and develop muscle memory. I found that I had to be patient and persistent in my practice, as progress was slow and required a lot of effort. However, I also found that the more I practiced, the more I enjoyed playing the guitar and the more I improved.
 c. Organization
+- I had only been practicing songs, but I realized that I also needed to practice the basics. So the problem last time was that I didn't practice enough basics. So, when I practiced a new song, It was necessary to practice new techniques from scratch, and because we only practiced the flashy techniques, the overall level of completion was very unstable.
 d. Supporting evidence
+- It is clear that practicing the basics is very important, not just in music. Research by Kudo et al. has also shown that the order and content of practice is important for improving.
 e. Reflection
+- Looking back on my experience of learning how to play the guitar, I realize that it has been a challenging but rewarding journey. I have learned the importance of patience, persistence, and practice in developing new skills. I have also learned that it is important to focus on the basics and build a strong foundation before moving on to more advanced techniques. Overall, learning how to play the guitar has been a valuable experience that has taught me important lessons about discipline, dedication, and the rewards of hard work.
