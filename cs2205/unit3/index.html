@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2205 Unit 3 Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<main>
+    <h1>Contact Us</h1>
+    <div>
+        <p id="formMessage"></p>
+    </div>
+    <form id="userForm" action ="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+        <label for="preferredContact">Preferred Contact Method:</label>
+        <input type="radio" id="contactEmail" name="preferredContact" value="email" checked>Email
+        <input type="radio" id="contactPhone" name="preferredContact" value="phone">Phone
+        <input type="radio" id="contactBoth" name="preferredContact" value="both">Both
+        <br>
+        <label for="inquiryType">Inquiry Type:</label>
+        <select id="inquiryType" name="inquiryType" required>
+            <option value="general">General Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="sales">Sales Inquiry</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</main>

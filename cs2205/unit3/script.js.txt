@@ -1,0 +1,15 @@
+// JavaScript code to handle form submission and display input content
+// submit時にイベント実行をする関数
+document.getElementById('userForm').onsubmit = function (event) {
+    // 再読み込み防止
+    event.preventDefault();
+    // 入力フォームの内容を取得
+    let inputForm = document.getElementById('userForm').elements['name'].value + ', ' +
+        document.getElementById('userForm').elements['email'].value + ', ' +
+        document.getElementById('userForm').elements['phoneNumber'].value + ', ' +
+        document.getElementById('userForm').elements['message'].value + ', ' +
+        document.getElementById('userForm').elements['preferredContact'].value + ', ' +
+        document.getElementById('userForm').elements['inquiryType'].value;
+    // 入力内容を画面に出力
+    document.getElementById('formMessage').textContent = `${inputForm}`;
+}
