@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #taskInput {
+            width: 80%;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #addTaskButton {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #addTaskButton:hover {
+            background-color: #218838;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .edit-button, .save-button, .remove-button {
+            padding: 10px 15px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #ff3939;
+            margin: 5px 10px;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div>
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <button id="addTaskButton">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+    <script>
+    const taskList = document.getElementById('taskList');
+    const taskInput = document.getElementById('taskInput');
+
+    document.getElementById('addTaskButton').addEventListener('click', function (){
+        const taskText = taskInput.value.trim();
+        const taskEditButton = document.createElement('button');
+        taskEditButton.textContent = 'Edit';
+        taskEditButton.classList.add('edit-button');
+        const taskRemoveButton = document.createElement('button');
+        taskRemoveButton.textContent = 'Remove';
+        taskRemoveButton.classList.add('remove-button');
+        const taskCheckbox = document.createElement('input');
+        taskCheckbox.type = 'checkbox';
+        if (taskText !== '') {
+            const taskItem = document.createElement('li');
+            taskItem.appendChild(taskCheckbox);
+            taskItem.appendChild(document.createTextNode(taskText));
+            taskItem.appendChild(document.createElement('br'));
+            taskItem.appendChild(taskEditButton);
+            taskItem.appendChild(taskRemoveButton);
+            taskList.appendChild(taskItem);
+            taskInput.value = ''; // Clear the input field after adding
+        }
+    });
+    taskList.addEventListener('click', function(event) {
+        if (event.target.tagName === 'BUTTON' && event.target.classList.contains('edit-button')) {
+            const taskItem = event.target.parentElement;
+            const taskText = taskItem.firstChild.textContent;
+            const inputField = document.createElement('input');
+            inputField.type = 'text';
+            inputField.value = taskText;
+            taskItem.replaceChild(inputField, taskItem.firstChild);
+            event.target.textContent = 'Save';
+            event.target.classList.remove('edit-button');
+            event.target.classList.add('save-button');
+        } else if (event.target.tagName === 'BUTTON' && event.target.classList.contains('save-button')) {
+            const taskItem = event.target.parentElement;
+            const inputField = taskItem.firstChild;
+            const updatedText = inputField.value.trim();
+            if (updatedText !== '') {
+                const taskTextNode = document.createTextNode(updatedText);
+                taskItem.replaceChild(taskTextNode, inputField);
+                event.target.textContent = 'Edit';
+                event.target.classList.remove('save-button');
+                event.target.classList.add('edit-button');
+            }
+        }
+    });
+
+    taskList.addEventListener('click', function(event) {
+        if (event.target.tagName === 'BUTTON' && event.target.classList.contains('remove-button')) {
+            const taskItem = event.target.parentElement;
+            taskList.removeChild(taskItem);
+        }
+    });
+
+    taskList.addEventListener('click', function(event) {
+        if (event.target.tagName === 'INPUT' && event.target.type === 'checkbox') {
+            const taskItem = event.target.parentElement;
+            if (event.target.checked) {
+                taskItem.style.textDecoration = 'line-through'; // Mark as complete
+            } else {
+                taskItem.style.textDecoration = 'none'; // Mark as incomplete
+            }
+        }
+    });
+    </script>
+</body>

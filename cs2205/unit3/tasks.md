@@ -64,5 +64,4 @@ What are some good sizes for separators in responsive design?
 
 ## Assignment Activity:
 Description of content of index.html and style.css and script.js:
-You are a web developer tasked with creating a responsive web page that includes a form for user input. The form should be styled using CSS to ensure it is visually appealing and user-friendly. Additionally, you need to implement JavaScript to handle form submission and display the input content on the same page without reloading.
-Requirements:
+index.html:

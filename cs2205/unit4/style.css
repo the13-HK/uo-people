@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+input, select, button {
+    display:inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#inputContainer {
+    background-color: #ebebeb;
+    border: #999999 1px solid;
+    padding: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    border-radius: 8px;
+}
+
+#convertButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#convertButton:hover {
+    background-color: #0056b3;
+}
+#resultContainer {
+    margin-top: 20px;
+}
+#error {
+    color: red;
+}
